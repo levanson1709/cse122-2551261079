@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.bocuc{
+    display: grid;
+    grid-template-columns: 220px 1fr ;
+    gap: 24px;
+    
+}
+h1{
+    color: #C2185B;
+    text-align:  center;
+    font-size: 28px;
+    margin: 0 0 22px;
+}
+h2{
+    background-color: #FFC0CB;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 4px 10px;
+    display: inline-block;
+}
+.dsvuong{
+    list-style-type: square;
+    line-height: 1.9;
+}
+.dstron{
+    list-style-type: circle;
+    line-height: 1.9;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+footer{
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+}
